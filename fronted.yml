@@ -1,8 +1,0 @@
-- name: ssetup fronted
-  hosts: all
-  become: yes
-  roles:
-    - fronted
-
-
-
