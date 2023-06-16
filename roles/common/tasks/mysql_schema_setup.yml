@@ -1,6 +1,6 @@
 
 
-- name: install nysql client
+- name: install mysql client
   ansible.builtin.yum:
     name: mysql
     state: installed
